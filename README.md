@@ -11,7 +11,7 @@ test codespaces : emcc, wasm
 # 配置
 
 安插件就正常安装  
-默认是白色, 切换成 [darks+(default dark)] 似乎没作用
+默认是白色, 切换成 [darks+(default dark)] 没作用, 直接改settings.json也没用
 
 # codespaces
 
@@ -31,3 +31,5 @@ https://github.com/microsoft/vscode-dev-containers/tree/master/containers
 启动还能失败的...
 
 代理全开才正常连上, 无法排除
+
+docker -v 过去居然看不到文件
