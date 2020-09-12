@@ -32,4 +32,5 @@ https://github.com/microsoft/vscode-dev-containers/tree/master/containers
 
 代理全开才正常连上, 无法排除
 
-docker -v 过去居然看不到文件
+docker -v 过去居然看不到文件  
+只能看到目录结构, 看不到任何文件
