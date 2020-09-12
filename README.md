@@ -21,6 +21,10 @@ https://github.com/microsoft/vscode-dev-containers/tree/master/containers/codesp
 https://github.com/microsoft/vscode-dev-containers/tree/master/containers/codespaces-linux/.devcontainer/library-scripts  
 https://github.com/microsoft/vscode-dev-containers/tree/master/containers  
 
+# 默认环境
+
+有 docker gcc node 
+没有 julia emcc cmake
 
 # log
 
