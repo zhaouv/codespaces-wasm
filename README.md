@@ -30,7 +30,10 @@ https://github.com/microsoft/vscode-dev-containers/tree/master/containers
 
 启动还能失败的...
 
-代理全开才正常连上, 无法排除
+代理全开才正常连上, 可能不是启动失败, 总归挺慢的
 
-docker -v 过去居然看不到文件  
-只能看到目录结构, 看不到任何文件
+> docker -v 过去居然看不到文件  
+> 只能看到目录结构, 看不到任何文件
+
+https://gitlab.com/gitlab-org/gitlab-runner/-/issues/1389  
+使用`--volumes-from`来解决
